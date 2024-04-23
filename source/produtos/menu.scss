@@ -1,0 +1,16 @@
+
+@import "variables";
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+    }
+
+    li a {
+        color: $color-menu-link;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,17 @@
+
+@import "variables";
+@import "container";
+
+header {
+    background-color: $color-header-bg;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+}
